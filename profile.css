@@ -26,6 +26,7 @@ header {
     height:50px;
     width:50px;
     float: right;
+    margin-left:2px;
     
 }
 
@@ -57,6 +58,7 @@ header {
     height:300px;
     width: 100%;
     /* border :2px solid rgb(66, 13, 56); */
+    background-color:saddlebrown;
 
 }
 .skill{
@@ -68,6 +70,7 @@ header {
     height:150;
     width: 100%;
     /* border :2px solid rgb(51, 90, 196); */
+    background-color:orange;
 
 }
 .number{
