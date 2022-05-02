@@ -1,69 +1,91 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <title>profile</title>
+        <title>my_profile</title>
+        <link href="profile.css" rel="stylesheet" type="text/css">
+
     </head>
     <body>
-        <center>
-            <header>
+       <!--Header-->
+       <header>
+        <div id="name">
+            <center>
                 <h1>Vishal Subhash Sule</h1>
-            
-               
-            </header>
-            <a href="https://imgbb.com/"><img src="https://i.ibb.co/p3fP2FM/vishal-1.jpg" alt="vishal-1" border="0"></a>
-            <!-- <img align="right"src="images/vishal.jpg" alt="Vishal Sule"width="200" height="220"/> -->
-            <!-- <link href="images/"> -->
-            
-        </center>
-        <hr/>
-        <center>
-            <h1>About Us</h1>
-        </center>
-        
-        <p>I'm Full Stack Solution Architect The crossover between design and programming has always 
-            been of interest to me, I've been lucky enough to work alongside some talented teams on a 
-            number of high profile websites. I have a wide range of skills that include back-end development 
-            using open source technologies (NodeJs, Python), design (working closely with designers), 
-            front-end development (React, Angular9, ReactJs, HTML5, CSS3, Javascript, Responsive, UX), 
-            Server Administrator(AWS, GCP, Azure),database(MongoDB,cassendra,Mysql), CI/CD(Docker, kubernetes)
-        </p>
-        <hr/>
-        <center>
-            <h1>SKILLS</h1>
-            <!-- <img src="images/A.png" alt="Angular" width="100" height="120"/> -->
-            <a href="https://imgbb.com/"><img src="https://i.ibb.co/cNHm8LJ/A.png" alt="A" border="0" high="70" width="70" ></a>
-            <!-- <img src="images/HTML.png" alt="Html-logo" width="100" height="120"/> -->
-            <a href="https://ibb.co/2hyB7NT"><img src="https://i.ibb.co/fF27Yvs/HTML.png" high="50" width="50" alt="HTML" border="0">
-            <!-- <img src="images/css.png" alt="CSS"width="100" height="120"/> -->
-            <a href="https://ibb.co/QmJkcB1"><img src="https://i.ibb.co/Lp0rPw2/css.png" high="50"width="50" alt="css" border="0"></a>
-            <!-- <img src="images/MongoDB.jpg" alt=""MongoDB width="100" height="120"/> -->
-            <a href="https://ibb.co/HXJNVJk"><img src="https://i.ibb.co/wYvJRvx/MongoDB.jpg" high="50" width="50" alt="MongoDB" border="0"></a>
-        </center>
-        
-        <hr/>
-        
-        <center>
-            <h1>
-                Map
-            </h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d484236.71952275373!2d73.58345640847364!3d18.524411063153938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1650805081298!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </center>
+            </center>    
+        </div>
+        <div id="social">
+            <a href="https://www.facebook.com/vishal.sule.7965/" target="_blank">
+                <img src="Images/facebook_logo.png" alt="Facebook" class="slogo"/>
+            </a>
+            <a href="https://www.instagram.com/vishal_88_official/" target="_blank">
+                <img src="https://i.ibb.co/vDjvKPH/Instagram-logo.png" alt="Instagram" class="slogo"/>
+            </a>
+            <a href="https://www.youtube.com/channel/UCrRaG6d6e7t-FvP2p3KEk_A" target="_blank">
+                <img src="Images/youtube_logo.png" alt="youtube" class="slogo"/>
+            </a>
+        </div>
 
-        <hr/>
-        <center>
-            <h1>Contact</h1>
-            <h2>9172888082</h2>
-            <hr/>
-            <footer>
-                <h1>&copy; Profile_of_Vishal</h1>
-            </footer>
-        </center>
-        
+       </header>
+           
+        <!--About-us-->
+        <div id="about">
+            <center>
+                <img src="Images/vishal.jpg" alt="my image" class="myimg"/>
+            </center>
+            <div>
+                <center>
+                <h1>About_us</h1>
+                </center>
+                <p class="data">I'm Full Stack Solution Architect The crossover between design and programming has always 
+                    been of interest to me, I've been lucky enough to work alongside some talented teams on a 
+                    number of high profile websites. I have a wide range of skills that include back-end development 
+                    using open source technologies (NodeJs, Python), design (working closely with designers), 
+                    front-end development (React, Angular9, ReactJs, HTML5, CSS3, Javascript, Responsive, UX),database(MongoDB,cassendra,Mysql), CI/CD(Docker, kubernetes)</p>
+            </div>
+        </div>
+        <!--Skills-->
+        <div id="skills">
+            <center>
+                <h1>Skills</h1>
+             
+            <div>
+                <img src="Images/css.png" alt="css" class="skill" />
+                <img src="Images/HTML.png" alt="html" class="skill"/>
+                <img src="Images/A.png" alt="angular" class="skill"/>
+                <img src="Images/MongoDB.jpg" alt="MongoDB" class="skill"/>
+            </div>   
+            </center>
+
+        </div>
+        <!--contact-us-->
+        <div id="contact">
+            <center>
+                <h1>Contact</h1>
+            <center>  
+                <h2 class="number">Contact Number: 9172888082</h2> 
+                <h2>personal email id: vishalsule2017@gmail.com</h2> 
+                <h2 >collage email id: vssule@mitaoe.ac.in</h2> 
 
 
+        </div>
+        <!--map-->
+        <div id="map">
+            <center>
+                <h1>
+                    Map
+                </h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d484236.71952275373!2d73.58345640847364!3d18.524411063153938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1650805081298!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </center>
+
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <center>
+                <h3>&copy; VishalSuledeveloper</h3>
+            <center>
+        </footer>
 
 
     </body>
-
 
 </html>

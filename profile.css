@@ -1,0 +1,94 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* header */
+header {
+    height: 60px;
+    width: 100%;
+    /* border :2px solid rgb(58, 6, 40); */
+    position: fixed;
+
+}
+#name{
+    float: left;
+    background-color:rgb(110, 133, 154)
+}
+#social{
+    float: right;
+    background-color:white;
+}
+.slogo{
+    height:50px;
+    width:50px;
+    float: right;
+    
+}
+
+/* about us */
+#about {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(71, 144, 157);
+    /* border :2px solid rgb(172, 32, 97); */
+
+}
+.data{
+    font-style: rgb;
+    background-color:yellow
+}
+
+/* #pic{
+    height : 450px;
+    width : 100%;
+    float: left;
+} */
+.myimg{
+    height: 75%;
+    width: 25%;
+    /* float: left; */
+}
+/* skills */
+#skills{
+    height:300px;
+    width: 100%;
+    /* border :2px solid rgb(66, 13, 56); */
+
+}
+.skill{
+    height: 100px;
+    width : 100px;
+}
+/* contact us */
+#contact{
+    height:150;
+    width: 100%;
+    /* border :2px solid rgb(51, 90, 196); */
+
+}
+.number{
+    float: left;
+}
+/* .mail{
+    float: right;
+} */
+/* map */
+#map{
+    height: 600px;
+    width: 100%;
+    /* border :2px solid rgb(132, 94, 94); */
+    background-color: rgb(167, 214, 238);
+    
+
+}
+/* footer */
+footer {
+    height: 50;
+    width: 100%;
+    /* border :2px solid rgb(180, 33, 33); */
+
+}
